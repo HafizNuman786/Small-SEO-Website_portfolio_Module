@@ -1,0 +1,122 @@
+.dropdown{
+  cursor: pointer;
+  min-width: 90px;
+  height: 34px;
+  font-size: 12px;
+  padding: 0px 8px;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  border: 1px solid #EA5050;
+}
+.dropdown:hover{
+  
+  background-color: #ffeded;;
+  
+}
+p{
+  margin-bottom: 0px !important;
+  font-weight: 450;
+}
+.text_decoration_none:hover{
+  text-decoration: underline !important
+}
+/* .section{
+  background-color: #e9e9e9;
+} */
+.col_md_1{
+  margin-left: 0px !important;
+}
+.col_md_2{
+  margin-right: 0px !important;
+  
+}
+.cards{
+  border: 1px solid #E3E7ED;
+  background-color: white;
+}
+.f_api{
+  display: block !important;
+  width: 37px;
+  height: 37px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("api.png");
+}
+.rounded_circle{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    margin-left: 0.25rem !important;
+    background-color: #9FAEB6;
+    
+}
+.apple{
+  background-image: url("apple.svg");
+  display: block !important;
+  width: 37px;
+  height: 37px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.android{
+  
+  background-image: url("android.png");
+  display: block !important;
+  width: 37px;
+  height: 37px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.wordpress{
+  background-image: url("wordpress.png");
+  display: block !important;
+  width: 37px;
+  height: 37px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.input_group{
+  background-color: #f6f8fa;
+}
+.subcribebtn{
+  background-color: #0162b8;
+}
+.fb{
+    background-image: url("facebook.svg");
+    width: 38px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.twiter{
+  background-image: url("twitter.svg");
+  width: 38px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.linkedin{
+  background-image: url("linkedin.svg");
+  width: 38px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.youtube{
+  background-image: url("youtube.svg");
+  width: 38px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.copyright{
+  /* text-decoration: underline !important; */
+}

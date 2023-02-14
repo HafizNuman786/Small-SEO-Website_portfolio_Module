@@ -1,0 +1,52 @@
+.mainDiv{
+  border: 1px solid #E3E7ED;
+  margin-top: 0px !important;
+}
+.h3tag{
+  margin-top: 200px;
+}
+.row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col:not([href]) {
+  margin-top: 500px;
+  position: relative;
+  flex-basis: 0;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  text-decoration: none;
+  border: 1px solid #E3E7ED;
+  padding: 0.5rem !important;
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(70, 72, 72);
+}
+.crouselslide{
+  width: 1510px;
+  position: relative;
+  display: block;
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+.inner{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+
+
+
+
+
+
+
+

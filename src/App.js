@@ -1,24 +1,44 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Home from './component/home/home';
+import Footer from './component/footer/slider';
+import Endfotter from './component/footer/footer'
+import NavBar from './component/home/NavBar';
+import BinaryToText from './component/BinaryToText/BinaryToText';
+import BinaryConverter from './component/TextToBinary/binaryConverter';
+import BinaryToHex from './component/BinaryToHex/BinaryToHex';
+import HexToBinary from './component/HexToBinary/HexToBinary';
+import BinaryToAscii from './component/BinaryToASCII/BinaryToAscii';
+import AsciiToBinary from './component/ASCIIToBinary/AsciiToBinary';
+import BinaryToDecimal from './component/BinaryToDecimal/BinaryToDecimal';
+import DecimalToBinary from './component/DecimalToBinary/DecimalToBinary';
+import TextToAscii from './component/TextToASCII/TextToAscii';
+import DecimalToHex from './component/DecimalToHex/decimalToHex';
+import BinaryTranslator from './component/BinaryTranslator/BinaryTranslator';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+       {/* <NavBar/>
+        {/* <Home/> */}
+        {/* <Footer/>*/}
+        {/* <Endfotter/>  */}
+        {/* <BinaryConverter/> */}
+        {/* <BinaryToText/> */}
+        {/* <BinaryToHex/> */}
+        {/* <HexToBinary/> */}
+        {/* <BinaryToAscii/> */}
+        {/* <AsciiToBinary/> */}
+        {/* <BinaryToDecimal/> */}
+        {/* <DecimalToBinary/> */}
+        {/* <TextToAscii/> */}
+        <DecimalToHex/>
+        {/* <BinaryTranslator/> */}
+        
+        
+        
+
+        
+        </>
   );
 }
 
